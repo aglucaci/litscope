@@ -1,0 +1,141 @@
+{
+  "generated_at_local": "2026-01-21 19:21:11",
+  "generated_at_utc": "2026-01-21 19:21:16",
+  "days": 1,
+  "window_utc": {
+    "mindate": "2026/01/20",
+    "maxdate": "2026/01/21"
+  },
+  "sections": [
+    {
+      "label": "Urban/Wastewater virome",
+      "query": "(virome OR \"viral metagenomics\") AND (wastewater OR sewage OR \"built environment\" OR urban)",
+      "count": 1,
+      "items": [
+        {
+          "pmid": "41563065",
+          "title": "Integrated molecular and metatranscriptomic evidence of Tacaribe virus and the brain virome profile of",
+          "authors": "Larissa Leão F de Sousa, Rodrigo Lopes Sanz Duro, Raquel de Oliveira Vaz, Clara Lacerda de Athayde, Junior Olimpio Martins, Bruna Stefanie Silvério de Lima Slobosk",
+          "journal": "Microbiology spectrum",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41563065/",
+          "abstract_snippet": "Tacaribe virus (TCRV), a New World arenavirus, is associated with neotropical frugivorous bats, particularly"
+        }
+      ]
+    },
+    {
+      "label": "Metagenomics methods",
+      "query": "metagenomics AND (benchmark* OR pipeline OR \"quality control\" OR assembly OR classification)",
+      "count": 7,
+      "items": [
+        {
+          "pmid": "41563008",
+          "title": "nf-core/proteinfamilies: A scalable pipeline for the generation of protein families.",
+          "authors": "Evangelos Karatzas, Martin Beracochea, Fotis A Baltoumas, Eleni Aplakidou, Lorna Richardson, James A Fellows Yates",
+          "journal": "GigaScience",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41563008/",
+          "abstract_snippet": "The growth of metagenomics-derived amino acid sequence data has transformed our understanding of protein function, microbial diversity, and evolutionary relationships. However, the vast majority of these proteins remain functionally uncharacterized. Grouping t…"
+        },
+        {
+          "pmid": "41559018",
+          "title": "Congenital babesiosis in China: first molecularly confirmed case of vertical transmission of",
+          "authors": "Junwen Liu, Dongfang Li, Sen Wang, Shuai Gao, Bin Xu, Junlong Zhao",
+          "journal": "Emerging microbes & infections",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41559018/",
+          "abstract_snippet": "Congenital babesiosis is rarely reported globally. We report a 74-day-old male infant presented with fever, pallor, and severe, life-threatening haemolytic anaemia (haemoglobin: 45 g/L). The infant had 16% parasitemia with ring forms evident on peripheral bloo…"
+        },
+        {
+          "pmid": "41557465",
+          "title": "MetaFX: feature extraction from whole-genome metagenomic sequencing data.",
+          "authors": "Artem Ivanov, Vladimir Popov, Maxim Morozov, Evgenii Olekhnovich, Vladimir Ulyantsev",
+          "journal": "Bioinformatics (Oxford, England)",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41557465/",
+          "abstract_snippet": "Microbial communities consist of thousands of microorganisms and viruses and have a tight connection with an environment, such as gut microbiota modulation of host body metabolism. However, the direct relationship between the presence of certain microorganism …"
+        },
+        {
+          "pmid": "41510663",
+          "title": "Enhancing Iron Nutrition in Citrus: Synergistic Roles of Proline-2'-deoxymugineic Acid in Root Physiology and Microbiome.",
+          "authors": "Kai Gong, Nanqi Wang, Yingying Chen, Jing Yu, Chunfei Kuang, Xiaoyan Xiong",
+          "journal": "Journal of agricultural and food chemistry",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41510663/",
+          "abstract_snippet": "Iron (Fe) deficiency severely impairs plant growth and development in calcareous soils. Proline-2'-deoxymugineic acid (PDMA), a phytosiderophore analog that enhances Fe availability, alleviates Fe deficiency in field and vegetable crops but remains untested in…"
+        },
+        {
+          "pmid": "41505640",
+          "title": "Strategy Development for Improving Ensiling Performance of Ceratoides arborescens (",
+          "authors": "Shuai Du, Lichao He, Lin Sun, Xuewei Shi, Yanzi Xiao, Yushan Jia",
+          "journal": "Journal of agricultural and food chemistry",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41505640/",
+          "abstract_snippet": "This study investigated the effects of"
+        },
+        {
+          "pmid": "41503787",
+          "title": "Genes for Vitamin B Synthesis and Their Distribution in Microbial Producers.",
+          "authors": "Yan Wang, Yitian Yu, Nuohan Xu, Zhenyan Zhang, Bingfeng Chen, Minglong Song",
+          "journal": "Journal of agricultural and food chemistry",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41503787/",
+          "abstract_snippet": "B vitamins (VBs) are essential micronutrients, yet their microbial production across natural habitats remains poorly understood. We analyzed 126,931 metagenome-assembled genomes to map the distribution of VB producers and constructed a database of 87 VB synthe…"
+        },
+        {
+          "pmid": "41334926",
+          "title": "Nutrient limitation shapes functional traits of mycorrhizal fungi and phosphorus-cycling bacteria across an elevation gradient.",
+          "authors": "Hannah B Shulman, Jessica A M Pyle, Aimée T Classen, David W Inouye, Ruth Simberloff, Patrick O Sorensen",
+          "journal": "mSystems",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41334926/",
+          "abstract_snippet": "In nutrient-limited high-elevation ecosystems, plants rely on arbuscular mycorrhizal (AM) fungi to provide mineral phosphorus (P) in the form of phosphate (PO"
+        }
+      ]
+    },
+    {
+      "label": "Influenza evolution",
+      "query": "(influenza OR flu) AND (evolution OR \"positive selection\" OR \"antigenic drift\" OR clade)",
+      "count": 1,
+      "items": [
+        {
+          "pmid": "41557749",
+          "title": "The receptor binding properties of H5Ny influenza A viruses have evolved to bind to avian-type mucin-like O-glycans.",
+          "authors": "Julia Weber, Niels L D Ponse, Xueyong Zhu, María Ríos Carrasco, Alvin X Han, Mathis Funk",
+          "journal": "PLoS pathogens",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41557749/",
+          "abstract_snippet": "Highly pathogenic H5Ny influenza A viruses are causing unprecedented, season-independent outbreaks across avian and mammalian species, including dairy cattle, a novel reservoir. The sialoside-binding properties of influenza A hemagglutinin (HA) are strongly re…"
+        }
+      ]
+    },
+    {
+      "label": "H5N1 / avian influenza",
+      "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
+      "count": 0,
+      "items": []
+    },
+    {
+      "label": "Human virome",
+      "query": "\"human virome\" OR \"gut virome\" OR \"virome atlas\"",
+      "count": 0,
+      "items": []
+    },
+    {
+      "label": "AMR metagenomics",
+      "query": "(\"antimicrobial resistance\" OR AMR) AND metagenomics",
+      "count": 1,
+      "items": [
+        {
+          "pmid": "41562608",
+          "title": "Survey of bacteria associated with septic arthritis in beef feedlot cattle.",
+          "authors": "Daniel Kos, Brian Warr, Danae M Suchan, Danilo Wadt, Jennifer N Russell, Mallory Norfield",
+          "journal": "Applied and environmental microbiology",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41562608/",
+          "abstract_snippet": "Septic arthritis (SA) is a cause of lameness in cattle attributed to bacterial infections."
+        }
+      ]
+    }
+  ]
+}
