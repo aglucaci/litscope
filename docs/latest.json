@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-01-24 13:07:48",
-  "generated_at_utc": "2026-01-24 13:07:53",
+  "generated_at_local": "2026-01-25 13:09:03",
+  "generated_at_utc": "2026-01-25 13:09:09",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/01/23",
-    "maxdate": "2026/01/24"
+    "mindate": "2026/01/24",
+    "maxdate": "2026/01/25"
   },
   "sections": [
     {
@@ -16,113 +16,20 @@
     {
       "label": "Metagenomics methods",
       "query": "metagenomics AND (benchmark* OR pipeline OR \"quality control\" OR assembly OR classification)",
-      "count": 2,
-      "items": [
-        {
-          "pmid": "41575959",
-          "title": "Multi-modal data to identify key factors influencing lung injury in ARDS patients undergoing invasive mechanical ventilation: A prospective multi-center observational study protocol.",
-          "authors": "Zhimei Duan, Di Lian, Kaifei Wang, Ye Hu, Han Fu, Ruoxuan Wen",
-          "journal": "PloS one",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41575959/",
-          "abstract_snippet": "Patients with moderate to severe acute respiratory distress syndrome (ARDS) exhibit extremely poor prognoses following mechanical ventilation, with mortality rates as high as 40% to 55%. Despite extensive research into ARDS classification and prognostic assess…"
-        },
-        {
-          "pmid": "41574538",
-          "title": "Metagenomic Surveillance of Blood-Fed Mosquitoes for Assessing Zoonotic Risk in Managed Animal Settings.",
-          "authors": "Mukesh Thakur, Stanzin Dolker, Avijit Ghosh, Lenrik K Wangmo, Vinaya K Singh, Mehedi Hasan",
-          "journal": "Vector borne and zoonotic diseases (Larchmont, N.Y.)",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41574538/",
-          "abstract_snippet": "Vector-borne zoonotic diseases remain a major global public health concern, particularly at interfaces where humans, domestic animals, and wildlife interact closely. Conventional surveillance approaches often fail to detect early zoonotic spillover events, esp…"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Influenza evolution",
       "query": "(influenza OR flu) AND (evolution OR \"positive selection\" OR \"antigenic drift\" OR clade)",
-      "count": 3,
-      "items": [
-        {
-          "pmid": "41577748",
-          "title": "Disease susceptibility and biological vulnerability of black vultures to fatal clade 2.3.4.4b highly pathogenic avian influenza A(H5N1) virus infection.",
-          "authors": "Nicole M Nemeth, Victoria A Andreasen, Alisia A W Weyna, Robert Sargent, Mark Cunningham, Melanie R Kunkel",
-          "journal": "Scientific reports",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41577748/",
-          "abstract_snippet": ""
-        },
-        {
-          "pmid": "41577702",
-          "title": "An H5N1 clade 2.3.4.4b virus vaccine that elicits cross-protective antibodies against conserved domains of H5 and N1 glycoproteins.",
-          "authors": "Eduard Puente-Massaguer, Thales Galdino Andrade, Michael J Scherm, Kirill Vasilev, Hassanein Abozeid, Alesandra J Rodriguez",
-          "journal": "Nature communications",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41577702/",
-          "abstract_snippet": "The continuous evolution and global spread of highly pathogenic avian influenza (HPAI) H5N1 viruses, particularly clade 2.3.4.4b, pose major challenges for pandemic preparedness. This study evaluates a low-dose inactivated split-virus vaccine derived from H5N1…"
-        },
-        {
-          "pmid": "41575943",
-          "title": "Intra-patient neuraminidase mutations in avian H5N1 influenza virus reduce sialidase activity to complement weaker hemagglutinin binding and facilitate human infection.",
-          "authors": "Yohei Watanabe, Madiha S Ibrahim, Yasuha Arai, Daisuke Kuroda, Emad M Elgendy, Shin-Ichi Nakakita",
-          "journal": "PLoS pathogens",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41575943/",
-          "abstract_snippet": "Clade 2.2 H5N1 influenza viruses have caused an unusually high number of human infections, providing a unique opportunity to investigate early molecular steps associated with host adaptation. Although most work has focused on hemagglutinin (HA), the contributi…"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "H5N1 / avian influenza",
       "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
-      "count": 5,
-      "items": [
-        {
-          "pmid": "41577748",
-          "title": "Disease susceptibility and biological vulnerability of black vultures to fatal clade 2.3.4.4b highly pathogenic avian influenza A(H5N1) virus infection.",
-          "authors": "Nicole M Nemeth, Victoria A Andreasen, Alisia A W Weyna, Robert Sargent, Mark Cunningham, Melanie R Kunkel",
-          "journal": "Scientific reports",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41577748/",
-          "abstract_snippet": ""
-        },
-        {
-          "pmid": "41577702",
-          "title": "An H5N1 clade 2.3.4.4b virus vaccine that elicits cross-protective antibodies against conserved domains of H5 and N1 glycoproteins.",
-          "authors": "Eduard Puente-Massaguer, Thales Galdino Andrade, Michael J Scherm, Kirill Vasilev, Hassanein Abozeid, Alesandra J Rodriguez",
-          "journal": "Nature communications",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41577702/",
-          "abstract_snippet": "The continuous evolution and global spread of highly pathogenic avian influenza (HPAI) H5N1 viruses, particularly clade 2.3.4.4b, pose major challenges for pandemic preparedness. This study evaluates a low-dose inactivated split-virus vaccine derived from H5N1…"
-        },
-        {
-          "pmid": "41575943",
-          "title": "Intra-patient neuraminidase mutations in avian H5N1 influenza virus reduce sialidase activity to complement weaker hemagglutinin binding and facilitate human infection.",
-          "authors": "Yohei Watanabe, Madiha S Ibrahim, Yasuha Arai, Daisuke Kuroda, Emad M Elgendy, Shin-Ichi Nakakita",
-          "journal": "PLoS pathogens",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41575943/",
-          "abstract_snippet": "Clade 2.2 H5N1 influenza viruses have caused an unusually high number of human infections, providing a unique opportunity to investigate early molecular steps associated with host adaptation. Although most work has focused on hemagglutinin (HA), the contributi…"
-        },
-        {
-          "pmid": "41575624",
-          "title": "Evaluation of the Efficacy of Low-Concentration Gaseous Chlorine Dioxide in Inactivating Airborne H5 High Pathogenicity Avian Influenza Virus in Vivo Model.",
-          "authors": "Yik Lim Hew, Norikazu Isoda, Takanori Miura, Takahiro Hiono, Yoshihiro Sakoda",
-          "journal": "Food and environmental virology",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41575624/",
-          "abstract_snippet": "H5 high pathogenicity avian influenza virus (HPAIV) continues to spread globally, causing several high pathogenicity avian influenza (HPAI) outbreaks in poultry and significant economic losses. Biosecurity measures that prevent the introduction of HPAIV repres…"
-        },
-        {
-          "pmid": "41571900",
-          "title": "Emerging trends and hotspots in Oseltamivir resistance: insights from a bibliometric investigation.",
-          "authors": "Siming Zhai, Yuzhu Dou, Zhengjiu Cui, Bin Yuan",
-          "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41571900/",
-          "abstract_snippet": "Influenza has long been a serious global public health problem, and the risk of drug resistance to Oseltamivir, as a first-line antiviral drug, cannot be ignored. Although some research findings have been published, a systematic review of current research on O…"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Human virome",
@@ -133,18 +40,8 @@
     {
       "label": "AMR metagenomics",
       "query": "(\"antimicrobial resistance\" OR AMR) AND metagenomics",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41577432",
-          "title": "Antimicrobial resistance surveillance: lessons learnt from large databases of antimicrobial resistance genes.",
-          "authors": "Jiawei Shen, Abiye Tigabu, Shyam K Mishra, Umme Urmi, Jerome Ozkan, Fiona Stapleton",
-          "journal": "The British journal of ophthalmology",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41577432/",
-          "abstract_snippet": "Ocular infections, caused by a variety of microbes, are likely to become more difficult to treat due to the global increase in antimicrobial resistance (AMR). Traditional assays for resistance only analyse a small proportion of the possible resistance capabili…"
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   ]
 }
