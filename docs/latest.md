@@ -1,6 +1,6 @@
 # Daily PubMed Watch (Viromics / Metagenomics)
 
-**Updated:** 2026-01-27 13:27:19  
+**Updated:** 2026-01-28 13:28:05  
 
 **Window:** last 1 day(s)
 
