@@ -1,6 +1,6 @@
-# Panopticon
+# LitScope
 
-**Panopticon** is an automated, daily situational-awareness system for
+This repository is an automated, daily situational-awareness system for
 **viromics, metagenomics, and evolutionary biology**.
 
 It continuously scans the scientific literature for emerging signals
@@ -11,11 +11,11 @@ and publishes a public, reproducible daily brief via GitHub Pages.
 
 ## 🌐 Live Dashboard
 
-https://aglucaci.github.io/panopticon/
+https://aglucaci.github.io/litscope/
 
 ---
 
-## 🎯 What Panopticon Does
+## What This Repo Does
 
 - Monitors PubMed daily for new publications in:
   - viromes & viral metagenomics
@@ -31,33 +31,33 @@ https://aglucaci.github.io/panopticon/
 
 ---
 
-## 🧬 Design Philosophy
+## Design Philosophy
 
 - **Situational awareness over retrospection**
 - **Predictive evolutionary mindset**
 - **Static, auditable outputs**
 - **No backend, no databases, no credentials**
 
-Panopticon is intended as durable scientific infrastructure, not a demo.
+This package is intended as durable scientific infrastructure, not a demo.
 
 ---
 
-## ⚙️ Automation
+## Automation
 
-Panopticon runs daily using GitHub Actions.  
+This repo runs daily using GitHub Actions.  
 All generated outputs are written to `/docs` and are immediately published
 through GitHub Pages.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for informational and research purposes only.  
 It does not constitute medical, public-health, or policy advice.
 
 ---
 
-## 👤 Author
+## Author
 
 Alexander G. Lucaci, PhD  
 Computational Evolution • Viromics • Genomic Surveillance
