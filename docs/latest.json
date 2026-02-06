@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-05 13:44:11",
-  "generated_at_utc": "2026-02-05 13:44:19",
+  "generated_at_local": "2026-02-06 13:40:41",
+  "generated_at_utc": "2026-02-06 13:40:50",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/04",
-    "maxdate": "2026/02/05"
+    "mindate": "2026/02/05",
+    "maxdate": "2026/02/06"
   },
   "sections": [
     {
@@ -19,13 +19,13 @@
       "count": 3,
       "items": [
         {
-          "pmid": "41639269",
-          "title": "Accurate plasmid reconstruction from metagenomics data using assembly-alignment graphs and contrastive learning.",
-          "authors": "Pau Piera Líndez, Lasse Schnell Danielsen, Iva Kovačić, Marc Pielies Avellí, Joseph Nesme, Lars Juhl Jensen",
-          "journal": "Nature biotechnology",
+          "pmid": "41642002",
+          "title": "Not all vaginal microbiomes are equal: functional context shapes immune landscapes.",
+          "authors": "Amanda Williams, Amaury Maros, Michael T France, Jacques Ravel, Johanna B Holm",
+          "journal": "mBio",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41639269/",
-          "abstract_snippet": "Plasmids are extrachromosomal DNA molecules that enable horizontal gene transfer in bacteria, often conferring advantages such as antibiotic resistance. Despite their importance, plasmids are underrepresented in genomic databases because of challenges in assem…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41642002/",
+          "abstract_snippet": "Taxonomic classification alone fails to capture the ecological and functional diversity of vaginal microbiomes, particularly those dominated by"
         },
         {
           "pmid": "41637515",
@@ -50,36 +50,8 @@
     {
       "label": "Influenza evolution",
       "query": "(influenza OR flu) AND (evolution OR \"positive selection\" OR \"antigenic drift\" OR clade)",
-      "count": 3,
-      "items": [
-        {
-          "pmid": "41639986",
-          "title": "Genomic Evolution of Influenza A Virus During the 2024-2025 Season, the Johns Hopkins Health System: Antigenic Drift Reduces Serum Neutralization.",
-          "authors": "David Villafuerte, Amary Fall, Elgin Akin, Anne P Werner, Matthew Pinsley, Yee Vue",
-          "journal": "The Journal of infectious diseases",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41639986/",
-          "abstract_snippet": "Seasonal influenza causes significant global morbidity, mortality, and economic burden. Ongoing viral evolution can lead to vaccine mismatch and the emergence of antiviral resistance, highlighting the importance of genomic surveillance. The 2024-2025 influenza…"
-        },
-        {
-          "pmid": "41634234",
-          "title": "Surveillance reveals a prevalent pediatric A(H1N1)pdm09 virus with hemagglutinin substitutions S137P-R142K-V152I that diminish vaccine efficacy.",
-          "authors": "Lifeng Zhao, Jing Wang, Jihong Xu, Jiane Guo, Ping Zhang, Xiaofang Guo",
-          "journal": "Virus genes",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41634234/",
-          "abstract_snippet": "Influenza A(H1N1)pdm09 viruses pose a significant disease burden on children worldwide, with high rates of hospitalization and substantial morbidity and mortality. Outpatient < 18 years of age with upper respiratory infections (URIs) were enrolled through acti…"
-        },
-        {
-          "pmid": "39535247",
-          "title": "In-hospital Outcomes of Healthcare-associated COVID-19 (Omicron) Versus Healthcare-associated Influenza: A Retrospective, Nationwide Cohort Study in Switzerland.",
-          "authors": "Rebecca Grant, Marlieke E A de Kraker, Niccolò Buetti, Holly Jackson, Mohamed Abbas, Jonathan Aryeh Sobel",
-          "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/39535247/",
-          "abstract_snippet": "As coronavirus disease 2019 (COVID-19) is integrated into existing infectious disease control programs, it is important to understand the comparative clinical impact of COVID-19 and other respiratory diseases."
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "H5N1 / avian influenza",
@@ -87,56 +59,36 @@
       "count": 2,
       "items": [
         {
-          "pmid": "41637527",
-          "title": "Phase 1 and preclinical studies reveal safety, pharmacokinetics, and efficacy of intranasal delivery of the influenza antibody CR9114.",
-          "authors": "Anna L Beukenhorst, Robin Rogiers, Keira L Rice, George Booth, Joost Haasnoot, Joseph Nkolola",
-          "journal": "Science translational medicine",
+          "pmid": "41644609",
+          "title": "Integrated approaches to explore temporal-spatial changes in gene reassortment of highly pathogenic avian influenza A(H5) virus in Eurasia, 2000-2023.",
+          "authors": "Bo-Jia Chen, Chun-Chen Liang, Yao-Tsun Li, Ting-Wu Chuang, Hong-Dar Isaac Wu, Day-Yu Chao",
+          "journal": "Scientific reports",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41637527/",
-          "abstract_snippet": "Systemic administration of influenza virus-specific monoclonal antibodies achieves low concentrations in the nasal mucosa, the portal of infection. Intranasal administration may be more relevant for preventing infection, but the pharmacokinetics of intranasal …"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41644609/",
+          "abstract_snippet": ""
         },
         {
-          "pmid": "41416823",
-          "title": "Identification and characterization of a novel inhibitor of influenza A virus that acts by blocking nucleoprotein oligomerization.",
-          "authors": "Vincent H J Leonard, Dianna B Vidales, Benjamin R Taft, Matthew J Hesse, Patrick S Lee, Mulugeta Mamo",
-          "journal": "Antimicrobial agents and chemotherapy",
+          "pmid": "41642978",
+          "title": "Detecting Influenza A(H5N1) Viruses through Severe Acute Respiratory Infection Surveillance, Cambodia.",
+          "authors": "William W Davis, Kathrine R Tan, Borann Sar, Alyssa Finlay, Heng Seng, Vicheth Long",
+          "journal": "Emerging infectious diseases",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41416823/",
-          "abstract_snippet": "Influenza A virus (IAV) causes annual epidemics and sporadic pandemics of acute respiratory infections resulting in significant morbidity and mortality. Although approved influenza antivirals (e.g., oseltamivir and baloxavir) exist, concerns persist about the …"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41642978/",
+          "abstract_snippet": "Of 19 human cases of avian influenza A(H5N1) virus infection detected during January 2023-March 2025 in Cambodia, 12 (63%) were detected directly by surveillance for severe acute respiratory infection (SARI) or indirectly by testing ill close contacts. SARI su…"
         }
       ]
     },
     {
       "label": "Human virome",
       "query": "\"human virome\" OR \"gut virome\" OR \"virome atlas\"",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41636510",
-          "title": "Tools and approaches to study the human gut virome: from the bench to bioinformatics.",
-          "authors": "Haley Anne Hallowell, Justin Malogan, Jotham Suez",
-          "journal": "mSystems",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41636510/",
-          "abstract_snippet": "The human gastrointestinal tract is home to a diverse community of microorganisms from all domains of life, collectively referred to as the gut microbiome. While gut bacteria have been studied extensively in relation to human host health and physiology, other …"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "AMR metagenomics",
       "query": "(\"antimicrobial resistance\" OR AMR) AND metagenomics",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41636304",
-          "title": "Metagenomic Assessment of Full-Scale Wastewater Treatment Plants Identifies Sentinel Antibiotic Resistance Gene Families for Monitoring Reclaimed Wastewater and Treated Sludge.",
-          "authors": "Liam P Brown, Anna Marizzi, Carles M Borrego, Giulia Gionchetta, Zhao Zhengzheng, Rodrigo B Carneiro",
-          "journal": "Environmental science & technology",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41636304/",
-          "abstract_snippet": "The new European (EU) regulation on water reuse explicitly incorporates antimicrobial resistance (AMR) into routine monitoring and risk management, creating an urgent need to define target antibiotic resistance genes (ARGs) for reclaimed irrigation water and a…"
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   ]
 }
