@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-08 13:25:29",
-  "generated_at_utc": "2026-02-08 13:25:36",
+  "generated_at_local": "2026-02-09 13:53:02",
+  "generated_at_utc": "2026-02-09 13:53:09",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/07",
-    "maxdate": "2026/02/08"
+    "mindate": "2026/02/08",
+    "maxdate": "2026/02/09"
   },
   "sections": [
     {
@@ -28,8 +28,18 @@
     {
       "label": "H5N1 / avian influenza",
       "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "40758832",
+          "title": "Identification of and Response to Influenza A(H5) in Off-the-Shelf Raw Milk-Santa Clara County, California, November-December 2024.",
+          "authors": "Alessandra Løchen, Brandon Bonin, Rensen Khoshabian, Melanie Diep, Syeda Iqbal, Hailey Chua",
+          "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/40758832/",
+          "abstract_snippet": "In November-December 2024, the County of Santa Clara Public Health Department detected influenza A and A(H5) virus in unpasteurized milk sold in the county. A(H5N1) virus surveillance of off-the-shelf unpasteurized milk led to early detection and recall of pot…"
+        }
+      ]
     },
     {
       "label": "Human virome",
