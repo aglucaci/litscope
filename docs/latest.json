@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-11 13:54:16",
-  "generated_at_utc": "2026-02-11 13:54:22",
+  "generated_at_local": "2026-02-12 13:49:14",
+  "generated_at_utc": "2026-02-12 13:49:19",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/10",
-    "maxdate": "2026/02/11"
+    "mindate": "2026/02/11",
+    "maxdate": "2026/02/12"
   },
   "sections": [
     {
@@ -16,95 +16,57 @@
     {
       "label": "Metagenomics methods",
       "query": "metagenomics AND (benchmark* OR pipeline OR \"quality control\" OR assembly OR classification)",
-      "count": 5,
+      "count": 4,
       "items": [
         {
-          "pmid": "41668110",
-          "title": "Genomic analysis of the genetic background underlying Streptococcus pneumoniae beta-lactam nonsusceptibility in central Vietnam: increased beta-lactam nonsusceptibility and dynamics of the pbp2x gene.",
-          "authors": "Hiroshi Fujii, Mitsuhiko Sato, Hien Anh Thi Nguyen, Huong Thi Thu Vu, Satoshi Kakiuchi, Bhim Gopal Dhoubhadel",
-          "journal": "Tropical medicine and health",
+          "pmid": "41674272",
+          "title": "An ensemble binning approach to identify functional diversity in cleanroom environments.",
+          "authors": "Michael C Macey, Alexander Mahnert, Ben P Stephens, Ezgi Kucukkilic-Stephens, Karen Olsson-Francis",
+          "journal": "Philosophical transactions. Series A, Mathematical, physical, and engineering sciences",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41668110/",
-          "abstract_snippet": "We previously reported alarmingly high carriage rates of Streptococcus pneumoniae (SP) serotype 19F and serogroup 6 isolates, which were not susceptible to multiple beta-lactams among children under five years of age in Vietnam. Multilocus sequence typing anal…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41674272/",
+          "abstract_snippet": "Cleanroom environments, crucial for spacecraft assembly, are subject to stringent sterilization protocols to minimize microbial contamination. However, tolerant microbes can persist and pose a potential risk for planetary protection. This study employs an ense…"
         },
         {
-          "pmid": "41667950",
-          "title": "ViralQuest: a user-friendly interactive pipeline for viral-sequences analysis and curation.",
-          "authors": "Gabriel Victor Pina Rodrigues, Lucas Yago Melo Ferreira, Eric Roberto Guimarães Rocha Aguiar",
-          "journal": "BMC bioinformatics",
+          "pmid": "41674268",
+          "title": "Survival limits of psychrotolerant microorganisms with relevance for planetary protection of the icy moons.",
+          "authors": "Tommaso Zaccaria, Kristina Beblo-Vranesevic, Marien I de Jonge, Mihai G Netea, Petra Rettberg",
+          "journal": "Philosophical transactions. Series A, Mathematical, physical, and engineering sciences",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41667950/",
-          "abstract_snippet": ""
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41674268/",
+          "abstract_snippet": "Investigating the survival limits of extremophilic microorganisms exposed to simulated space conditions can shed light on the ability of terrestrial microorganisms to survive and propagate on other planetary bodies. Although microbes can be found in all enviro…"
         },
         {
-          "pmid": "41664846",
-          "title": "Molar-Incisor and Generalized Grade C Periodontitis: Distinct Microbiome-Immune Interactions Suggest Divergent Pathogenesis.",
-          "authors": "Camila S Stolf, Hélvis E S Paz, Murilo C Paraluppi, Manuela M V Miguel, Mauro P Santamaria, Mabelle F Monteiro",
-          "journal": "Journal of periodontal research",
+          "pmid": "41674065",
+          "title": "Skin Microbiome Profiling in Patients with Primary Sjögren Disease Compared to Healthy Individuals.",
+          "authors": "Sujin Jo, Hoonhee Seo, Kyung-Ann Lee, Sukyung Kim, Md Abdur Rahim, Tapan Indrajeet Barman",
+          "journal": "Journal of microbiology and biotechnology",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41664846/",
-          "abstract_snippet": "Molar-Incisor (PerioC-MIP) and Generalized (PerioC-G) Grade C Periodontitis could have distinctive etiopathogenesis behind their unique clinical patterns. Thus, this study aimed to distinguish these two phenotypes by analyzing the subgingival metagenomic profi…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41674065/",
+          "abstract_snippet": "Primary Sjögren disease (SjD) is a systemic autoimmune disease characterized by inflammation of exocrine glands, most commonly leading to dry mouth and dry eyes. Although the etiology of SjD remains unclear, emerging evidence suggests that the microbiome modul…"
         },
         {
-          "pmid": "41581292",
-          "title": "Shaping soil fungal communities: How swine waste treatment systems and geography drive fungal community shifts.",
-          "authors": "Camila Diehl, Gabriela Merker Breyer, Mariana Costa Torres, Camila Rosana Wuaden, Raquel Rebelatto, Janaina Pastore",
-          "journal": "The Science of the total environment",
+          "pmid": "41673713",
+          "title": "Experimental insights in taxon-specific functional responses to droughts in glacier-fed stream biofilms.",
+          "authors": "David Touchette, Grégoire Michoud, Martin Boutroux, Martina Gonzalez Mateu, Florian Baier, Ianina Altshuler",
+          "journal": "Microbiome",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41581292/",
-          "abstract_snippet": "The use of swine waste as an organic fertilizer is an important practice in sustainable agriculture. This study aims to evaluate the effects of two common swine waste treatment systems, Covered Lagoon Biodigesters (CLB) and Waste Stabilization Ponds (WSP), on …"
-        },
-        {
-          "pmid": "41238046",
-          "title": "ContigPolishing: A User-Friendly Java GUI for contig extension and refinement in prokaryotic genomes.",
-          "authors": "Rosyely da Silva Oliveira, Nilson César Oliveira Alves Filho, Walter de Barros Gomes Netto, Denis de Castro Silva, Mônica Silva de Oliveira, Ana Carolina Favacho Miranda de Oliveira",
-          "journal": "Gene",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41238046/",
-          "abstract_snippet": "To determine the gene content of an organism, the reads generated by the sequencing process must be assembled using an assembly strategy, either by reference or de novo. However, this process often results in multiple sequences called contigs, which, after the…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41673713/",
+          "abstract_snippet": "Glacier-fed streams are predicted to face increasingly frequent and intense droughts. However, the impacts of drought events on benthic biofilm, including bacteria, eukaryotes, and viruses, the dominating life form in glacier-fed streams, remain poorly underst…"
         }
       ]
     },
     {
       "label": "Influenza evolution",
       "query": "(influenza OR flu) AND (evolution OR \"positive selection\" OR \"antigenic drift\" OR clade)",
-      "count": 2,
-      "items": [
-        {
-          "pmid": "41668256",
-          "title": "Longitudinal Surveillance of Influenza A Virus Exposure in Wild Boars (Sus scrofa) in Spain (2015-2023): Serologic and Virologic Evidence of Subtype Infections and H5N1 Spillover Risk.",
-          "authors": "Paloma Encinas, Aitor Nogales, Estela Escribano-Romero, M Ángeles Martín Del Burgo, Jorge Ramón López-Olvera, José Enrique Granados",
-          "journal": "Zoonoses and public health",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41668256/",
-          "abstract_snippet": "Influenza A viruses (IAVs) are responsible for respiratory infections in a wide range of species, including birds, swine and humans. The role of wild boar (Sus scrofa) in IAV epidemiology remains underexplored. Here, we present a longitudinal serologic and vir…"
-        },
-        {
-          "pmid": "41666261",
-          "title": "Spatial patterns and environmental influences of COVID-19 outbreaks, post-Omicron.",
-          "authors": "Aleksandra Stamper, Rachel E Baker",
-          "journal": "PloS one",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41666261/",
-          "abstract_snippet": "The seasonality of many respiratory pathogen outbreaks, such as influenza and respiratory syncytial virus, is driven by climate factors, such as specific humidity or temperature. However, it remains unclear whether climate plays a role in determining the seaso…"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "H5N1 / avian influenza",
       "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41668256",
-          "title": "Longitudinal Surveillance of Influenza A Virus Exposure in Wild Boars (Sus scrofa) in Spain (2015-2023): Serologic and Virologic Evidence of Subtype Infections and H5N1 Spillover Risk.",
-          "authors": "Paloma Encinas, Aitor Nogales, Estela Escribano-Romero, M Ángeles Martín Del Burgo, Jorge Ramón López-Olvera, José Enrique Granados",
-          "journal": "Zoonoses and public health",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41668256/",
-          "abstract_snippet": "Influenza A viruses (IAVs) are responsible for respiratory infections in a wide range of species, including birds, swine and humans. The role of wild boar (Sus scrofa) in IAV epidemiology remains underexplored. Here, we present a longitudinal serologic and vir…"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Human virome",
@@ -118,6 +80,15 @@
       "count": 2,
       "items": [
         {
+          "pmid": "41671170",
+          "title": "Coffee Cartridge Filtration: A Rapid, Inexpensive, and Easy Method to Concentrate Nucleic Acids from Pathogens and Fecal Biomarkers in Wastewater.",
+          "authors": "Charles Chettleburgh, Cristina Chiappe, Hailey Davidson, Gurleen Taggar, Anxin Zhao, Marc Habash",
+          "journal": "Journal of applied microbiology",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41671170/",
+          "abstract_snippet": "We propose coffee cartridge filtration as an alternative method for the concentration of nucleic acids from microorganisms in wastewater."
+        },
+        {
           "pmid": "41668418",
           "title": "Recent microbial evolutionary insights from metagenomics.",
           "authors": "Bárbara Moguel, Laura Carrillo Olivas, Mariana G Guerrero-Osornio, Sur Herrera Paredes",
@@ -125,15 +96,6 @@
           "pubdate": "2026",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41668418/",
           "abstract_snippet": "Microorganisms have profoundly shaped Earth's biological and geological history, from the origins of oxygenic photosynthesis to present-day global biogeochemical cycles. Metagenomics -through its ability to recover genomic information directly from environment…"
-        },
-        {
-          "pmid": "41668110",
-          "title": "Genomic analysis of the genetic background underlying Streptococcus pneumoniae beta-lactam nonsusceptibility in central Vietnam: increased beta-lactam nonsusceptibility and dynamics of the pbp2x gene.",
-          "authors": "Hiroshi Fujii, Mitsuhiko Sato, Hien Anh Thi Nguyen, Huong Thi Thu Vu, Satoshi Kakiuchi, Bhim Gopal Dhoubhadel",
-          "journal": "Tropical medicine and health",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41668110/",
-          "abstract_snippet": "We previously reported alarmingly high carriage rates of Streptococcus pneumoniae (SP) serotype 19F and serogroup 6 isolates, which were not susceptible to multiple beta-lactams among children under five years of age in Vietnam. Multilocus sequence typing anal…"
         }
       ]
     }
