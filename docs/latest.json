@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-12 13:49:14",
-  "generated_at_utc": "2026-02-12 13:49:19",
+  "generated_at_local": "2026-02-13 13:41:38",
+  "generated_at_utc": "2026-02-13 13:41:43",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/11",
-    "maxdate": "2026/02/12"
+    "mindate": "2026/02/12",
+    "maxdate": "2026/02/13"
   },
   "sections": [
     {
@@ -16,8 +16,17 @@
     {
       "label": "Metagenomics methods",
       "query": "metagenomics AND (benchmark* OR pipeline OR \"quality control\" OR assembly OR classification)",
-      "count": 4,
+      "count": 3,
       "items": [
+        {
+          "pmid": "41681117",
+          "title": "Metagenomic Reconstruction of Adeno-Associated Virus Genomes.",
+          "authors": "Olena Maiakovska, Lukas Link, Margarita Zayas, Yumi Sano, Teng Wei Koay, Kleopatra Rapti",
+          "journal": "Human gene therapy",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41681117/",
+          "abstract_snippet": "The exponential expansion of metagenomic data obtained through high-throughput sequencing technologies has surpassed the petabyte-scale threshold, resulting in an unprecedented abundance of data now enabling the"
+        },
         {
           "pmid": "41674272",
           "title": "An ensemble binning approach to identify functional diversity in cleanroom environments.",
@@ -35,38 +44,67 @@
           "pubdate": "2026",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41674268/",
           "abstract_snippet": "Investigating the survival limits of extremophilic microorganisms exposed to simulated space conditions can shed light on the ability of terrestrial microorganisms to survive and propagate on other planetary bodies. Although microbes can be found in all enviro…"
-        },
-        {
-          "pmid": "41674065",
-          "title": "Skin Microbiome Profiling in Patients with Primary Sjögren Disease Compared to Healthy Individuals.",
-          "authors": "Sujin Jo, Hoonhee Seo, Kyung-Ann Lee, Sukyung Kim, Md Abdur Rahim, Tapan Indrajeet Barman",
-          "journal": "Journal of microbiology and biotechnology",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41674065/",
-          "abstract_snippet": "Primary Sjögren disease (SjD) is a systemic autoimmune disease characterized by inflammation of exocrine glands, most commonly leading to dry mouth and dry eyes. Although the etiology of SjD remains unclear, emerging evidence suggests that the microbiome modul…"
-        },
-        {
-          "pmid": "41673713",
-          "title": "Experimental insights in taxon-specific functional responses to droughts in glacier-fed stream biofilms.",
-          "authors": "David Touchette, Grégoire Michoud, Martin Boutroux, Martina Gonzalez Mateu, Florian Baier, Ianina Altshuler",
-          "journal": "Microbiome",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41673713/",
-          "abstract_snippet": "Glacier-fed streams are predicted to face increasingly frequent and intense droughts. However, the impacts of drought events on benthic biofilm, including bacteria, eukaryotes, and viruses, the dominating life form in glacier-fed streams, remain poorly underst…"
         }
       ]
     },
     {
       "label": "Influenza evolution",
       "query": "(influenza OR flu) AND (evolution OR \"positive selection\" OR \"antigenic drift\" OR clade)",
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "pmid": "41685536",
+          "title": "Detection of highly pathogenic avian influenza A(H5N1) clade 2.3.4.4b virus in cull dairy cows with underlying respiratory and systemic disease.",
+          "authors": "Daniel J Righter, Erin B Howey, Chris L Siepker, Eric R Burrough, Drew R Magstadt, Marta Mainenti",
+          "journal": "Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41685536/",
+          "abstract_snippet": "Highly pathogenic avian influenza (HPAI) A(H5N1) clade 2.3.4.4b virus was identified in 4 cull dairy cows condemned by the U.S. Department of Agriculture because of pneumonia with accompanying systemic changes. Histologic findings were bronchopneumonia in 3 co…"
+        },
+        {
+          "pmid": "41677260",
+          "title": "Viral lineage and mode of exposure modulate within-host spatial dynamics of influenza A viruses in a guinea pig model.",
+          "authors": "Christina M Leyson, Nahara Vargas-Maldonado, Matthew Gaddy, Vedhika Raghunathan, Lucas M Ferreri, Meher Sethi",
+          "journal": "Journal of virology",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41677260/",
+          "abstract_snippet": "The upper and lower respiratory tracts (URT and LRT) present distinct environments for influenza A virus (IAV) replication. Their differential features have major implications for viral evolutionary dynamics, transmission potential, and pathogenesis. To invest…"
+        }
+      ]
     },
     {
       "label": "H5N1 / avian influenza",
       "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
-      "count": 0,
-      "items": []
+      "count": 3,
+      "items": [
+        {
+          "pmid": "41685536",
+          "title": "Detection of highly pathogenic avian influenza A(H5N1) clade 2.3.4.4b virus in cull dairy cows with underlying respiratory and systemic disease.",
+          "authors": "Daniel J Righter, Erin B Howey, Chris L Siepker, Eric R Burrough, Drew R Magstadt, Marta Mainenti",
+          "journal": "Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41685536/",
+          "abstract_snippet": "Highly pathogenic avian influenza (HPAI) A(H5N1) clade 2.3.4.4b virus was identified in 4 cull dairy cows condemned by the U.S. Department of Agriculture because of pneumonia with accompanying systemic changes. Histologic findings were bronchopneumonia in 3 co…"
+        },
+        {
+          "pmid": "41685518",
+          "title": "Fly larvae as an alternative sample for the detection of highly pathogenic avian influenza A(H5N1) virus.",
+          "authors": "Tabitha C Viner, Dawn Dirks, Dyan J Straughan, Tim Hauck",
+          "journal": "Journal of veterinary diagnostic investigation : official publication of the American Association of Veterinary Laboratory Diagnosticians, Inc",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41685518/",
+          "abstract_snippet": "Altered carcasses present a diagnostic challenge to veterinary pathologists. Autolysis and putrefaction may render organs unrecognizable, and scavenging by vertebrates and insects may remove organs entirely. Sampling for viral or bacterial testing is greatly h…"
+        },
+        {
+          "pmid": "41678516",
+          "title": "Identifying avian influenza hotspots in wild birds in the Netherlands.",
+          "authors": "Ronald Petie, Eduardo de Freitas Costa, Christian Kampichler, Roy Slaterus, Jose L Gonzales",
+          "journal": "PloS one",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41678516/",
+          "abstract_snippet": "Highly Pathogenic Avian Influenza (HPAI) threatens wild and domestic birds, mammals, and humans. The global spread of HPAI through wild birds requires timely, spatially accurate detection for enhanced preventive measures. However, detecting outbreaks in wildli…"
+        }
+      ]
     },
     {
       "label": "Human virome",
@@ -77,27 +115,8 @@
     {
       "label": "AMR metagenomics",
       "query": "(\"antimicrobial resistance\" OR AMR) AND metagenomics",
-      "count": 2,
-      "items": [
-        {
-          "pmid": "41671170",
-          "title": "Coffee Cartridge Filtration: A Rapid, Inexpensive, and Easy Method to Concentrate Nucleic Acids from Pathogens and Fecal Biomarkers in Wastewater.",
-          "authors": "Charles Chettleburgh, Cristina Chiappe, Hailey Davidson, Gurleen Taggar, Anxin Zhao, Marc Habash",
-          "journal": "Journal of applied microbiology",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41671170/",
-          "abstract_snippet": "We propose coffee cartridge filtration as an alternative method for the concentration of nucleic acids from microorganisms in wastewater."
-        },
-        {
-          "pmid": "41668418",
-          "title": "Recent microbial evolutionary insights from metagenomics.",
-          "authors": "Bárbara Moguel, Laura Carrillo Olivas, Mariana G Guerrero-Osornio, Sur Herrera Paredes",
-          "journal": "Genome biology and evolution",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41668418/",
-          "abstract_snippet": "Microorganisms have profoundly shaped Earth's biological and geological history, from the origins of oxygenic photosynthesis to present-day global biogeochemical cycles. Metagenomics -through its ability to recover genomic information directly from environment…"
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   ]
 }
