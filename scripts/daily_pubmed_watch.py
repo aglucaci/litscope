@@ -24,15 +24,143 @@ import xml.etree.ElementTree as ET
 from typing import Dict, List, Any, Tuple
 
 
+from __future__ import annotations
+from dataclasses import dataclass, field
+from typing import Optional
+import re
+import math
+#from datetime import datetime, timezone
+
 DEFAULT_QUERIES: Dict[str, str] = {
-    # Career-aligned themes
-    "Urban/Wastewater virome": '(virome OR "viral metagenomics") AND (wastewater OR sewage OR "built environment" OR urban)',
-    "Metagenomics methods": 'metagenomics AND (benchmark* OR pipeline OR "quality control" OR assembly OR classification)',
-    "Influenza evolution": '(influenza OR flu) AND (evolution OR "positive selection" OR "antigenic drift" OR clade)',
-    "H5N1 / avian influenza": 'H5N1 OR "highly pathogenic avian influenza" OR HPAI',
-    "Human virome": '"human virome" OR "gut virome" OR "virome atlas"',
-    "AMR metagenomics": '("antimicrobial resistance" OR AMR) AND metagenomics',
+
+    # ==============================
+    # Core Virology / Virome Themes
+    # ==============================
+
+    "Urban/Wastewater virome":
+        '(virome OR "viral metagenomics" OR "environmental virology") '
+        'AND (wastewater OR sewage OR "built environment" OR urban OR subway OR surface)',
+
+    "Human virome":
+        '"human virome" OR "gut virome" OR "blood virome" OR "virome atlas" OR viromics',
+
+    "Global viral surveillance":
+        '("viral surveillance" OR biosurveillance OR "pandemic preparedness" OR "pathogen surveillance") '
+        'AND (genomics OR sequencing)',
+
+    "Influenza evolution":
+        '(influenza OR flu OR orthomyxovirus) '
+        'AND (evolution OR "positive selection" OR "antigenic drift" OR clade OR phylogeny)',
+
+    "H5N1 / avian influenza":
+        'H5N1 OR "highly pathogenic avian influenza" OR HPAI OR "avian influenza evolution"',
+
+
+    # ==============================
+    # Evolutionary Biology / dN/dS
+    # ==============================
+
+    "Computational evolutionary biology":
+        '("molecular evolution" OR phylogenomics OR "evolutionary genomics") '
+        'AND (algorithm OR model OR likelihood OR simulation)',
+
+    "Selection analysis / dN/dS":
+        '("dN/dS" OR "codon model" OR HyPhy OR FEL OR MEME OR FUBAR OR BUSTED) '
+        'AND (selection OR evolution)',
+
+    "Viral evolution & recombination":
+        '(virus OR viral) AND (recombination OR reassortment OR "convergent evolution" '
+        'OR "adaptive evolution")',
+
+    "Phylogenetics & phylodynamics":
+        '(phylogenetic OR phylodynamic OR BEAST OR IQ-TREE OR "time-resolved tree") '
+        'AND (virus OR pathogen)',
+
+    "Evolutionary medicine":
+        '("evolutionary medicine" OR "pathogen evolution" OR "host-pathogen coevolution")',
+
+
+    # ==============================
+    # Metagenomics / Bioinformatics
+    # ==============================
+
+    "Metagenomics methods":
+        'metagenomics AND (benchmark* OR pipeline OR "quality control" '
+        'OR assembly OR classification OR taxonomic)',
+
+    "Long-read & hybrid assembly":
+        '(nanopore OR pacbio OR "long-read") AND (assembly OR metagenome OR virome)',
+
+    "Bioinformatics workflows":
+        '(Snakemake OR Nextflow OR CWL OR WDL) '
+        'AND (workflow OR pipeline OR reproducible OR HPC)',
+
+    "Taxonomic classification":
+        '(Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND benchmarking',
+
+    "Host-removal / contamination":
+        '("host depletion" OR "host removal" OR contamination OR decontam) '
+        'AND sequencing',
+
+
+    # ==============================
+    # Urban Microbiome / Environmental Genomics
+    # ==============================
+
+    "Urban microbiome":
+        '("urban microbiome" OR "built environment microbiome" '
+        'OR subway OR transit OR surface sampling)',
+
+    "Environmental DNA / eDNA":
+        '("environmental DNA" OR eDNA) AND (monitoring OR surveillance OR biodiversity)',
+
+    "Wastewater epidemiology":
+        '("wastewater surveillance" OR WBE OR "sewage sequencing") '
+        'AND (virus OR pathogen OR SARS-CoV-2)',
+
+
+    # ==============================
+    # AMR / Public Health Genomics
+    # ==============================
+
+    "AMR metagenomics":
+        '("antimicrobial resistance" OR AMR OR resistome) AND metagenomics',
+
+    "Pathogen detection pipelines":
+        '("pathogen detection" OR "metagenomic diagnostics") '
+        'AND (classifier OR pipeline OR sequencing)',
+
+
+    # ==============================
+    # ML / AI + Genomics (important for your direction)
+    # ==============================
+
+    "ML for genomics":
+        '("machine learning" OR deep learning OR transformer) '
+        'AND (genomics OR virology OR sequence)',
+
+    "AI protein evolution":
+        '(ESM OR AlphaFold OR protein language model) '
+        'AND (evolution OR mutation OR viral)',
+
+    "Simulation & synthetic reads":
+        '(simulation OR simulator OR synthetic) '
+        'AND (reads OR genome OR metagenome)',
+
+
+    # ==============================
+    # Database / Atlas / Large-scale resources
+    # ==============================
+
+    "Virome atlas / large datasets":
+        '(atlas OR database OR resource OR compendium) '
+        'AND (virome OR microbiome OR pathogen)',
+
+    "Global microbiome initiatives":
+        '("global microbiome" OR MetaSUB OR Earth Microbiome OR Tara Oceans) '
+        'AND genomics',
 }
+
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 
