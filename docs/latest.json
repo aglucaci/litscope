@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-13 15:42:38",
-  "generated_at_utc": "2026-02-13 15:42:48",
+  "generated_at_local": "2026-02-14 13:38:41",
+  "generated_at_utc": "2026-02-14 13:38:51",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/12",
-    "maxdate": "2026/02/13"
+    "mindate": "2026/02/13",
+    "maxdate": "2026/02/14"
   },
   "ranking": "pi_score(theme_priority + keyword_signals + venue + recency)",
   "themes": {
@@ -61,21 +61,8 @@
     {
       "label": "Phylodynamics & transmission",
       "query": "(((phylodynamic* OR \"time-resolved phylogeny\" OR BEAST OR \"birth-death\" OR coalescent) AND (virus OR pathogen)) OR ((\"genomic epidemiology\" OR \"phylodynamic inference\") AND (outbreak OR transmission))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41591862",
-          "title": "Re-emergence of DENV-3 in Paraguay after two decades: a genomic and epidemiological investigation.",
-          "authors": "Cesar Cantero, Cynthia Vazquez, Sandra Gonzalez, Analia Rojas, Fatima Fleitas, Julio Barrios",
-          "journal": "Emerging microbes & infections",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41591862/",
-          "abstract_snippet": "Dengue is one of the most rapidly expanding mosquito-borne viral diseases worldwide, posing a persistent public health challenge across tropical and subtropical regions. Here, we report the re-emergence of dengue virus serotype 3 (DENV-3) in Paraguay following…",
-          "score": 2.686,
-          "theme": "Phylodynamics & transmission"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Urban / built environment virome",
@@ -104,61 +91,48 @@
     {
       "label": "Metagenomics benchmarking & pipelines",
       "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
-      "count": 2,
-      "items": [
-        {
-          "pmid": "41674408",
-          "title": "A Reproducible Workflow for Macrophage Membrane Isolation and Nanocore Selection Toward Bioinspired Nanoparticles Targeting Immunologically Cold Tumors.",
-          "authors": "Diana Peixoto, Patricia Diaz-Rodriguez, Francisco Veiga, Angel Concheiro, Ana Cláudia Paiva-Santos, João Conde",
-          "journal": "Small methods",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41674408/",
-          "abstract_snippet": "Macrophage membrane-coated nanoparticles (M",
-          "score": 4.136,
-          "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "41681117",
-          "title": "Metagenomic Reconstruction of Adeno-Associated Virus Genomes.",
-          "authors": "Olena Maiakovska, Lukas Link, Margarita Zayas, Yumi Sano, Teng Wei Koay, Kleopatra Rapti",
-          "journal": "Human gene therapy",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41681117/",
-          "abstract_snippet": "The exponential expansion of metagenomic data obtained through high-throughput sequencing technologies has surpassed the petabyte-scale threshold, resulting in an unprecedented abundance of data now enabling the",
-          "score": 2.536,
-          "theme": "Metagenomics benchmarking & pipelines"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "ML for evolution & pathogens",
       "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
-      "count": 8,
+      "count": 5,
       "items": [
         {
-          "pmid": "41673112",
-          "title": "A deep residual 1D-CNN with self-attention for fraud transaction detection in virtual economies.",
-          "authors": "Kamel K Mohammed, Asmaa S Abdo, Ashraf Darwish, Aboul Ella Hassanien",
-          "journal": "Scientific reports",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41673112/",
-          "abstract_snippet": "As virtual economies in the metaverse continue to grow, the need for real-time risk assessment in financial transactions has become critical. Traditional fraud detection systems often face challenges in keeping pace with the complexity and speed of metaverse d…",
+          "pmid": "41686677",
+          "title": "50 Years of Automated Face Recognition.",
+          "authors": "Minchul Kim, Anil Jain, Xiaoming Liu",
+          "journal": "IEEE transactions on pattern analysis and machine intelligence",
+          "pubdate": "2026-02-13",
+          "pubdate_utc": "2026-02-13T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41686677/",
+          "abstract_snippet": "Over the past five decades, automated face recognition (FR) has progressed from handcrafted geometric and statistical approaches to advanced deep learning architectures that now approach, and in many cases exceed, human performance. This paper traces the histo…",
           "score": 4.286,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41673045",
-          "title": "Large-Scale Histological Image Dataset with Metadata for Colorectal Cancer Microenvironment.",
-          "authors": "Hao Wang, Huiying Li, Jingmin Xue, Yang Jiang, Keru Ma, Fenqi Du",
-          "journal": "Scientific data",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41673045/",
-          "abstract_snippet": "The pronounced heterogeneity of the tumor microenvironment (TME) in colorectal cancer (CRC) presents major obstacles in accurately predicting patient outcomes and tailoring treatment responses. Deciphering this intricate microenvironment based on histological …",
-          "score": 4.286,
+          "pmid": "41688558",
+          "title": "Bridging modalities with AI: a review of AI advances in multimodal biomedical imaging.",
+          "authors": "Le Minh Thao Doan, Kaveh Shahhosseini, Suraj Verma, Abdolreza Marefat, Giorgio Locicero, Sneha Verma",
+          "journal": "Communications engineering",
+          "pubdate": "2026-02-13",
+          "pubdate_utc": "2026-02-13T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41688558/",
+          "abstract_snippet": "The rapid evolution of AI has facilitated innovative solutions in analysing different biomedical imaging modalities. By leveraging the complementary information from each modality, multimodal AI solutions have shown a huge potential to go beyond human capabili…",
+          "score": 3.686,
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "41686785",
+          "title": "Mapping the evolution of cross-Strait relations via global news big data (2014-2023): An analysis integrating GDELT and machine learning.",
+          "authors": "Shengjie Shi, Belen Chen, Ziyi Guang, Derong Kong",
+          "journal": "PloS one",
+          "pubdate": "2026-02-13",
+          "pubdate_utc": "2026-02-13T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41686785/",
+          "abstract_snippet": "This study investigates global news media representations of cross-Strait relations from 2014 to 2023 using the GDELT database, framed within the mediatization of politics. Combining large-scale event data and computational text analysis, it offers a multi-lev…",
+          "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -170,7 +144,7 @@
           "pubdate_utc": "2026-02-13T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41685526/",
           "abstract_snippet": "The development of sensor arrays for effective discrimination of structurally similar physiological phosphates (PPs) in mixtures presents a considerable challenge. We propose a new strategy based on concentration-regulated supramolecular assembly to construct …",
-          "score": 2.494,
+          "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -182,54 +156,6 @@
           "pubdate_utc": "2026-02-13T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41684256/",
           "abstract_snippet": "",
-          "score": 2.494,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41680899",
-          "title": "Inference of SARS-CoV-2 exposure biomarkers using large-scale T-cell repertoire profiling.",
-          "authors": "Elizaveta K Vlasova, Alexandra I Nekrasova, Alexander Y Komkov, Mark Izraelson, Ekaterina A Snigir, Sergey I Mitrofanov",
-          "journal": "Genome medicine",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41680899/",
-          "abstract_snippet": "The COVID-19 pandemic offers a powerful opportunity to develop methods for monitoring the spread of infectious diseases based on their signatures in population immunity. Adaptive immune receptor repertoire sequencing (AIRR-seq) has become the method of choice …",
-          "score": 2.486,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41680644",
-          "title": "Prediction of death in burn patients infected with antibiotic-resistant Staphylococcus aureus using machine learning based techniques.",
-          "authors": "Erfan Naseri, Mojtaba Hedayati Ch, Mohmmadreza Mobayen, Hamid Sedighian, Abbas Ali Imani Fooladi",
-          "journal": "BMC infectious diseases",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41680644/",
-          "abstract_snippet": "",
-          "score": 2.486,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41678610",
-          "title": "Structural ontogeny of protein-protein interactions.",
-          "authors": "Aerin Yang, Hanlun Jiang, Kevin M Jude, Deniz Akpinaroglu, Stephan Allenspach, Alex Jie Li",
-          "journal": "Science (New York, N.Y.)",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41678610/",
-          "abstract_snippet": "Understanding how protein binding sites evolve interactions with other proteins could hold clues to targeting \"undruggable\" surfaces. We used synthetic coevolution to engineer new interactions between naïve surfaces, simulating the de novo formation of protein…",
-          "score": 2.486,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41678589",
-          "title": "NTDscope: A multi-contrast portable microscope for disease diagnosis.",
-          "authors": "María Díaz de León Derby, Zaina L Moussa, Carlos F Ng, Abdul M Bhuiya, Joana P Cabrera, Dipayan Banik",
-          "journal": "PLOS global public health",
-          "pubdate": "2026-02-12",
-          "pubdate_utc": "2026-02-12T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41678589/",
-          "abstract_snippet": "Accurate diagnostics are essential for disease control and elimination efforts. However, access to diagnostics for neglected tropical diseases (NTDs) is hindered by limited healthcare infrastructure in many NTD-endemic regions, as well as by reliance on time- …",
           "score": 2.486,
           "theme": "ML for evolution & pathogens"
         }
