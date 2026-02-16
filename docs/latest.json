@@ -1,6 +1,6 @@
 {
-  "generated_at_local": "2026-02-16 14:00:29",
-  "generated_at_utc": "2026-02-16 14:00:43",
+  "generated_at_local": "2026-02-16 14:43:21",
+  "generated_at_utc": "2026-02-16 14:43:35",
   "days": 7,
   "window_utc": {
     "mindate": "2026/02/09",
@@ -220,7 +220,7 @@
           "pubdate_utc": "2026-02-09T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41679088/",
           "abstract_snippet": "The phyllosphere, or above-ground part of plants, hosts diverse bacterial communities that play critical ecological roles and provide beneficial functions for the plant. The Hyphomicrobiales (Alphaproteobacteria) are a highly diverse and ecologically important…",
-          "score": 2.536,
+          "score": 2.535,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -323,7 +323,7 @@
           "pubdate_utc": "2026-02-09T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41666717/",
           "abstract_snippet": "To destabilize biofouling resulting from extracellular polymeric substances (EPS) in industrial circulating water systems, this study introduces a quorum sensing (QS)-based inhibition strategy using methyl anthranilate (MA) to disrupt biofouling structure. Str…",
-          "score": 2.486,
+          "score": 2.485,
           "theme": "Metagenomics benchmarking & pipelines"
         }
       ]

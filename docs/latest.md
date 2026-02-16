@@ -1,6 +1,6 @@
 # Daily PubMed Watch (evo • virome • metagenomics)
 
-**Updated:** 2026-02-16 14:00:29  
+**Updated:** 2026-02-16 14:43:21  
 **Window:** last 7 day(s)  
 **Ranking:** Score (theme priority + keyword signals + venue + recency)
 
@@ -72,7 +72,7 @@ _No new items in this window._
   _Enterobacter vonholyi isolate E323169 represents a rare case of co-carriage of the antimicrobial resistance genes (ARGs) bla Species identification for E323169 was initially assigned by MALDI-TOF and subsequently confirmed using a multifactorial genomic workfl…_
 - **[A phylogenomic and metagenomic meta-analysis of bacterial diversity in the phyllosphere lifts a veil on hyphomicrobiales dark matter.](https://pubmed.ncbi.nlm.nih.gov/41679088/)**  
   Jean-Baptiste Leducq, Louis-Philippe St-Amand, David Ross, Steven W Kembel · Systematic and applied microbiology · 2026-02-09  
-  _PI score:_ `2.536`  
+  _PI score:_ `2.535`  
   _The phyllosphere, or above-ground part of plants, hosts diverse bacterial communities that play critical ecological roles and provide beneficial functions for the plant. The Hyphomicrobiales (Alphaproteobacteria) are a highly diverse and ecologically important…_
 - **[Linking the epidemiology of coccidioidomycosis and environmental exposure through targeted genomic enrichment of](https://pubmed.ncbi.nlm.nih.gov/41467789/)**  
   Jason W Sahl, Nathan E Stone, Daniel R Kollath, Marieke Ramsey, Rebecca Ballard, Ana Braga · mBio · 2025-12-30  
@@ -106,7 +106,7 @@ _No new items in this window._
   _PI score:_ `2.494`  
 - **[Microbial quorum quenching mitigates biofouling from polyvinyl chloride pipes in industrial circulating water systems.](https://pubmed.ncbi.nlm.nih.gov/41666717/)**  
   Baoyong Zhang, Guanglei Qian, Chenxin Xie, Sen Qiao · Journal of environmental management · 2026-02-09  
-  _PI score:_ `2.486`  
+  _PI score:_ `2.485`  
   _To destabilize biofouling resulting from extracellular polymeric substances (EPS) in industrial circulating water systems, this study introduces a quorum sensing (QS)-based inhibition strategy using methyl anthranilate (MA) to disrupt biofouling structure. Str…_
 
 ## ML for evolution & pathogens — 25 result(s)
