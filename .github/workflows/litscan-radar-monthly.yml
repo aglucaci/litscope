@@ -1,4 +1,4 @@
-name: LitScan Radar
+name: LitScan Radar MONTHLY
 
 on:
   workflow_dispatch:
