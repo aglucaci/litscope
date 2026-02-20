@@ -1,6 +1,6 @@
 # Daily PubMed Watch (evo • virome • metagenomics)
 
-**Updated:** 2026-02-19 14:00:46  
+**Updated:** 2026-02-20 13:51:24  
 **Window:** last 1 day(s)  
 **Ranking:** Score (theme priority + keyword signals + venue + recency)
 
@@ -9,19 +9,13 @@
 
 _No new items in this window._
 
-## Cancer evolution & somatic selection — 1 result(s)
+## Cancer evolution & somatic selection — 0 result(s)
 
-- **[Inferring and summarizing tumor phylogenies from bulk DNA data.](https://pubmed.ncbi.nlm.nih.gov/41709239/)**  
-  Yuanyuan Qi, Henri Schmidt, Mohammed El-Kebir · Algorithms for molecular biology : AMB · 2026-02-18  
-  _PI score:_ `2.686`  
-  _Cancer phylogenies are key to understanding tumor evolution. However, due to the uncertainty in phylogenetic estimation, one typically infers many, equally-plausible phylogenies from bulk DNA sequencing data of tumors, hindering downstream analysis that relies…_
+_No new items in this window._
 
-## Recombination & mosaicism — 1 result(s)
+## Recombination & mosaicism — 0 result(s)
 
-- **[Emergence of a KL239-OCL6-ST63 Carbapenem-Resistant Acinetobacter pittii Strain, Co-carrying bla](https://pubmed.ncbi.nlm.nih.gov/41706200/)**  
-  Di Zhou, Jiayi Fan, Duo Zhang, Xiaohan Ma, Yifei Li, Xindan Zhang · Current microbiology · 2026-02-18  
-  _PI score:_ `2.686`  
-  _To characterize the genomic features, antimicrobial resistance mechanisms, and biological characteristics of a carbapenem-resistant Acinetobacter pittii strain co-harboring plasmid-borne bla_
+_No new items in this window._
 
 ## Phylodynamics & transmission — 0 result(s)
 
@@ -39,43 +33,38 @@ _No new items in this window._
 
 _No new items in this window._
 
-## Atlases, compendia, reference resources — 1 result(s)
+## Atlases, compendia, reference resources — 0 result(s)
 
-- **[Novel killer yeasts and toxins from the gardens of fungus-growing ants.](https://pubmed.ncbi.nlm.nih.gov/41562610/)**  
-  Rodolfo Bizarria, Jack W Creagh, Renato A Corrêa Dos Santos, Lily L Givens, Sara A Coss, Tanner J Badigian · Applied and environmental microbiology · 2026-01-21  
-  _PI score:_ `2.364`  
-  _Killer toxins are proteinaceous antifungal molecules produced by yeasts, with activity against a wide range of human and plant pathogenic fungi. Fungus gardens of attine ants in Brazil were surveyed to determine the presence of killer toxin-producing yeasts an…_
+_No new items in this window._
 
-## Metagenomics benchmarking & pipelines — 1 result(s)
+## Metagenomics benchmarking & pipelines — 0 result(s)
 
-- **[MetaRanker: precise profiling of antibiotic resistome risk in metagenomes by integrating abundance and genetic co-occurrence.](https://pubmed.ncbi.nlm.nih.gov/41705822/)**  
-  Zhenyu Guo, Yao Xiao, Junqiao Zhao, Zizhen Tang, Yufei Lin, Kun Yang · Applied and environmental microbiology · 2026-02-18  
-  _PI score:_ `2.536`  
-  _The proliferation of antibiotic resistance genes (ARGs) in environmental microbiomes represents a major and growing threat to public health, creating a critical demand for precise and efficient tools to monitor resistance risk. Current approaches often depend …_
+_No new items in this window._
 
-## ML for evolution & pathogens — 6 result(s)
+## ML for evolution & pathogens — 7 result(s)
 
-- **[In Situ Transmission Electron Microscopy Visualization of Electric-Field-Induced Phase Transitions at the Morphotropic Phase Boundary in Hf](https://pubmed.ncbi.nlm.nih.gov/41705514/)**  
-  Sanghyo Lee, Sojin Kim, Jinseok Ryu, Jaewook Lee, Jinseok Hong, Ji Eun Kim · ACS nano · 2026-02-18  
-  _PI score:_ `4.986`  
-  _Understanding electric-field-induced phase transitions is crucial for optimizing the ferroelectric and antiferroelectric properties of hafnium zirconium oxide (Hf_
-- **[Unraveling Scaling Relationships in Dual-Atom Catalysts with Electronic Descriptors: A Machine Learning Investigation for OER/ORR Activity.](https://pubmed.ncbi.nlm.nih.gov/41708480/)**  
-  Rahul Kumar Sharma, Harpriya Minhas, Biswarup Pathak · The journal of physical chemistry letters · 2026-02-18  
+- **[From single-sequences to evolutionary trajectories: protein language models capture the evolutionary potential of SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/41714330/)**  
+  Kieran D Lamb, Joseph Hughes, Spyros Lytras, Francesca Young, Orges Koci, James C Herzig · Nature communications · 2026-02-19  
+  _PI score:_ `3.686`  
+  _Protein language models (PLMs) capture features of protein three-dimensional structure from amino acid sequences alone, without requiring multiple sequence alignments (MSA). The concepts of grammar and semantics from natural language have been suggested to hav…_
+- **[Rapid directed evolution guided by protein language models and epistatic interactions.](https://pubmed.ncbi.nlm.nih.gov/41712694/)**  
+  Vincent Q Tran, Matthew Nemeth, Liam J Bartie, Sita S Chandrasekaran, Alison Fanton, Hyungseok C Moon · Science (New York, N.Y.) · 2026-02-19  
+  _PI score:_ `3.686`  
+  _Protein engineering is limited by the inefficient search through a high-dimensional sequence space to find combinations of synergistic mutations. Traditional approaches use stepwise mutation stacking, whereas machine learning methods require extensive datasets…_
+- **[Computational insights into the natural phage endolysin linker landscape.](https://pubmed.ncbi.nlm.nih.gov/41715157/)**  
+  Emma Cremelie, Alexandre Boulay, Roberto Vázquez, Yves Briers · BioData mining · 2026-02-19  
   _PI score:_ `2.486`  
-  _Dual-atom catalysts (DACs) have emerged as a new frontier in heterogeneous catalysis, offering improved stability and superior performance in key electrocatalytic reactions. However, identifying optimal multimetallic DACs combination for a multistep reaction i…_
-- **[A multiscale theory framework predicts size- and ordering-dependent activity in Pt-Cu oxygen reduction reaction catalysts.](https://pubmed.ncbi.nlm.nih.gov/41706874/)**  
-  Qi Xiao, Liang Cao · Proceedings of the National Academy of Sciences of the United States of America · 2026-02-18  
+- **[The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.](https://pubmed.ncbi.nlm.nih.gov/41714845/)**  
+  Shaoguo Tao, Xuemei Fan, Xiaoyou Liu, Yannic Becker, Patricia Schroder, Qian Zhao · Autoimmunity · 2026-02-19  
   _PI score:_ `2.486`  
-  _Optimizing the oxygen reduction reaction (ORR) performance of Pt-based alloy nanocatalysts requires a quantitative understanding of how catalytic activity and durability depend on nanoparticle composition, size, and atomic ordering. In this work, we present a …_
-- **[Artificial intelligence in orthopaedics: Enhanced examinations, ambient intelligence and the future of clinical practice.](https://pubmed.ncbi.nlm.nih.gov/41705361/)**  
-  Alexander Bouterse, James A Pruneski, Felix C Oettl, Balint Zsidai, Thomas Tischer, Umile Giuseppe Longo · Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA · 2026-02-18  
+  _IgA nephropathy (IgAN) and celiac disease (CeD) are autoimmune disorders characterized by dysregulated immune responses; however, the molecular mechanisms underlying their comorbidity remain incompletely understood. Here, we integrated transcriptomic datasets …_
+- **[Development and Validation of a Frailty Risk Prediction Model for Preoperative Non-Small-Cell Lung Cancer Patients: A Cross-Sectional Study.](https://pubmed.ncbi.nlm.nih.gov/41714831/)**  
+  Hang Yi, Miao Liu, Yihao Chen, Lu Liu, Man Liu, Zhen Wang · Annals of surgical oncology · 2026-02-19  
   _PI score:_ `2.486`  
-  _Artificial intelligence (AI) continues to rapidly transform the practice of medicine, with clinicians increasingly adopting data-driven decision-making aids and diagnostic support tools. Orthopaedic physicians are well poised to harness the capabilities of AI,…_
-- **[Artificial Intelligence Platform EnzySFC for Enzyme Screening and Functional Conversion: Completely Redirecting Nitrilase to Nitrile Hydratase Function.](https://pubmed.ncbi.nlm.nih.gov/41645784/)**  
-  Shuiqin Jiang, Zhelin Zheng, Hua Dong, Siwei Zhang, Qi Tong, Dong Yi · Journal of agricultural and food chemistry · 2026-02-06  
-  _PI score:_ `2.387`  
-  _Catalytic promiscuity provides fundamental insights into enzyme evolution. To address the multiobjective challenges in discovering and evolving promiscuous activities, we developed EnzySFC, an AI-assisted platform that combines de novo enzyme discovery with fu…_
-- **[DSSA-PPI: enhancing binding affinity change prediction upon protein mutations using disentangled structure-sequence aware attention.](https://pubmed.ncbi.nlm.nih.gov/41487137/)**  
-  Juhong Wu, Jiehui Sun, Tian Liang, Yongqi Zhang, Han Zhang, Tianyi Zhang · Chemical science · 2025-12-23  
-  _PI score:_ `2.069`  
-  _Accurate assessment of the effects of mutations on protein-protein interactions (PPIs) is crucial for understanding disease pathogenesis and the development of targeted therapies. Here, we present DSSA-PPI, a hybrid deep learning framework that enhances the pr…_
+  _Frailty is increasingly recognized as a predictor of poor surgical outcomes, yet its preoperative assessment in patients with non-small-cell lung cancer (NSCLC) remains challenging. This study aimed to develop and validate a high-performance predictive model f…_
+- **[An open-source deep learning-based toolbox for automated auditory brainstem response analyses (ABRA).](https://pubmed.ncbi.nlm.nih.gov/41714716/)**  
+  Abhijeeth Erra, Cayla M Miller, Jeffrey Chen, Elena Chrysostomou, Shannon Barret, Yasmin M Kassim · Scientific reports · 2026-02-19  
+  _PI score:_ `2.486`  
+- **[Interpretable machine learning for optimized dimethyl ether production from bio-methanol.](https://pubmed.ncbi.nlm.nih.gov/41714657/)**  
+  Mohsen Mokari, Mohammad Rahmani, Saeid Atashrouz · Scientific reports · 2026-02-19  
+  _PI score:_ `2.486`

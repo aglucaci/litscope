@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-19 14:00:46",
-  "generated_at_utc": "2026-02-19 14:01:00",
+  "generated_at_local": "2026-02-20 13:51:24",
+  "generated_at_utc": "2026-02-20 13:51:36",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/18",
-    "maxdate": "2026/02/19"
+    "mindate": "2026/02/19",
+    "maxdate": "2026/02/20"
   },
   "ranking": "pi_score(theme_priority + keyword_signals + venue + recency)",
   "themes": {
@@ -49,40 +49,14 @@
     {
       "label": "Cancer evolution & somatic selection",
       "query": "(((\"cancer evolution\" OR \"tumor evolution\" OR \"somatic evolution\" OR \"clonal evolution\") AND (genomics OR sequencing OR phylogen* OR \"single-cell\")) OR ((cancer OR tumor OR lymphoma OR leukemia) AND (\"positive selection\" OR \"clonal selection\" OR \"driver mutation\" OR \"dN/dS\" OR \"selection inference\")) OR ((\"mutational signature\" OR \"mutational signatures\") AND (cancer OR tumor) AND (evolution OR selection OR phylogeny))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41709239",
-          "title": "Inferring and summarizing tumor phylogenies from bulk DNA data.",
-          "authors": "Yuanyuan Qi, Henri Schmidt, Mohammed El-Kebir",
-          "journal": "Algorithms for molecular biology : AMB",
-          "pubdate": "2026-02-18",
-          "pubdate_utc": "2026-02-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41709239/",
-          "abstract_snippet": "Cancer phylogenies are key to understanding tumor evolution. However, due to the uncertainty in phylogenetic estimation, one typically infers many, equally-plausible phylogenies from bulk DNA sequencing data of tumors, hindering downstream analysis that relies…",
-          "score": 2.686,
-          "theme": "Cancer evolution & somatic selection"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Recombination & mosaicism",
       "query": "(((recombination OR \"mosaic genome\" OR breakpoint OR \"gene conversion\") AND (virus OR virome OR pathogen)) OR ((RDP OR GARD OR \"recombination detection\") AND (sequence OR alignment))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41706200",
-          "title": "Emergence of a KL239-OCL6-ST63 Carbapenem-Resistant Acinetobacter pittii Strain, Co-carrying bla",
-          "authors": "Di Zhou, Jiayi Fan, Duo Zhang, Xiaohan Ma, Yifei Li, Xindan Zhang",
-          "journal": "Current microbiology",
-          "pubdate": "2026-02-18",
-          "pubdate_utc": "2026-02-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41706200/",
-          "abstract_snippet": "To characterize the genomic features, antimicrobial resistance mechanisms, and biological characteristics of a carbapenem-resistant Acinetobacter pittii strain co-harboring plasmid-borne bla",
-          "score": 2.686,
-          "theme": "Recombination & mosaicism"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Phylodynamics & transmission",
@@ -111,116 +85,102 @@
     {
       "label": "Atlases, compendia, reference resources",
       "query": "(((atlas OR database OR compendium OR \"reference catalog\" OR resource) AND (virome OR microbiome OR pathogen)) OR ((\"large-scale\" OR global) AND (virome OR microbiome) AND (metadata OR harmonization))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41562610",
-          "title": "Novel killer yeasts and toxins from the gardens of fungus-growing ants.",
-          "authors": "Rodolfo Bizarria, Jack W Creagh, Renato A Corrêa Dos Santos, Lily L Givens, Sara A Coss, Tanner J Badigian",
-          "journal": "Applied and environmental microbiology",
-          "pubdate": "2026-01-21",
-          "pubdate_utc": "2026-01-21T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41562610/",
-          "abstract_snippet": "Killer toxins are proteinaceous antifungal molecules produced by yeasts, with activity against a wide range of human and plant pathogenic fungi. Fungus gardens of attine ants in Brazil were surveyed to determine the presence of killer toxin-producing yeasts an…",
-          "score": 2.364,
-          "theme": "Atlases, compendia, reference resources"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Metagenomics benchmarking & pipelines",
       "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41705822",
-          "title": "MetaRanker: precise profiling of antibiotic resistome risk in metagenomes by integrating abundance and genetic co-occurrence.",
-          "authors": "Zhenyu Guo, Yao Xiao, Junqiao Zhao, Zizhen Tang, Yufei Lin, Kun Yang",
-          "journal": "Applied and environmental microbiology",
-          "pubdate": "2026-02-18",
-          "pubdate_utc": "2026-02-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41705822/",
-          "abstract_snippet": "The proliferation of antibiotic resistance genes (ARGs) in environmental microbiomes represents a major and growing threat to public health, creating a critical demand for precise and efficient tools to monitor resistance risk. Current approaches often depend …",
-          "score": 2.536,
-          "theme": "Metagenomics benchmarking & pipelines"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "ML for evolution & pathogens",
       "query": "(((\"machine learning\" OR \"deep learning\" OR transformer) AND (virus OR pathogen OR evolution OR phylogeny)) OR ((\"protein language model\" OR ESM) AND (mutation OR evolution OR fitness))) AND (\"machine learning\" OR \"deep learning\" OR transformer OR \"foundation model\" OR \"protein language model\" OR ESM) NOT (case report OR randomized OR psychology)",
-      "count": 6,
+      "count": 7,
       "items": [
         {
-          "pmid": "41705514",
-          "title": "In Situ Transmission Electron Microscopy Visualization of Electric-Field-Induced Phase Transitions at the Morphotropic Phase Boundary in Hf",
-          "authors": "Sanghyo Lee, Sojin Kim, Jinseok Ryu, Jaewook Lee, Jinseok Hong, Ji Eun Kim",
-          "journal": "ACS nano",
-          "pubdate": "2026-02-18",
-          "pubdate_utc": "2026-02-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41705514/",
-          "abstract_snippet": "Understanding electric-field-induced phase transitions is crucial for optimizing the ferroelectric and antiferroelectric properties of hafnium zirconium oxide (Hf",
-          "score": 4.986,
+          "pmid": "41714330",
+          "title": "From single-sequences to evolutionary trajectories: protein language models capture the evolutionary potential of SARS-CoV-2.",
+          "authors": "Kieran D Lamb, Joseph Hughes, Spyros Lytras, Francesca Young, Orges Koci, James C Herzig",
+          "journal": "Nature communications",
+          "pubdate": "2026-02-19",
+          "pubdate_utc": "2026-02-19T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41714330/",
+          "abstract_snippet": "Protein language models (PLMs) capture features of protein three-dimensional structure from amino acid sequences alone, without requiring multiple sequence alignments (MSA). The concepts of grammar and semantics from natural language have been suggested to hav…",
+          "score": 3.686,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41708480",
-          "title": "Unraveling Scaling Relationships in Dual-Atom Catalysts with Electronic Descriptors: A Machine Learning Investigation for OER/ORR Activity.",
-          "authors": "Rahul Kumar Sharma, Harpriya Minhas, Biswarup Pathak",
-          "journal": "The journal of physical chemistry letters",
-          "pubdate": "2026-02-18",
-          "pubdate_utc": "2026-02-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41708480/",
-          "abstract_snippet": "Dual-atom catalysts (DACs) have emerged as a new frontier in heterogeneous catalysis, offering improved stability and superior performance in key electrocatalytic reactions. However, identifying optimal multimetallic DACs combination for a multistep reaction i…",
+          "pmid": "41712694",
+          "title": "Rapid directed evolution guided by protein language models and epistatic interactions.",
+          "authors": "Vincent Q Tran, Matthew Nemeth, Liam J Bartie, Sita S Chandrasekaran, Alison Fanton, Hyungseok C Moon",
+          "journal": "Science (New York, N.Y.)",
+          "pubdate": "2026-02-19",
+          "pubdate_utc": "2026-02-19T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41712694/",
+          "abstract_snippet": "Protein engineering is limited by the inefficient search through a high-dimensional sequence space to find combinations of synergistic mutations. Traditional approaches use stepwise mutation stacking, whereas machine learning methods require extensive datasets…",
+          "score": 3.686,
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "41715157",
+          "title": "Computational insights into the natural phage endolysin linker landscape.",
+          "authors": "Emma Cremelie, Alexandre Boulay, Roberto Vázquez, Yves Briers",
+          "journal": "BioData mining",
+          "pubdate": "2026-02-19",
+          "pubdate_utc": "2026-02-19T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41715157/",
+          "abstract_snippet": "",
           "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41706874",
-          "title": "A multiscale theory framework predicts size- and ordering-dependent activity in Pt-Cu oxygen reduction reaction catalysts.",
-          "authors": "Qi Xiao, Liang Cao",
-          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-          "pubdate": "2026-02-18",
-          "pubdate_utc": "2026-02-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41706874/",
-          "abstract_snippet": "Optimizing the oxygen reduction reaction (ORR) performance of Pt-based alloy nanocatalysts requires a quantitative understanding of how catalytic activity and durability depend on nanoparticle composition, size, and atomic ordering. In this work, we present a …",
+          "pmid": "41714845",
+          "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
+          "authors": "Shaoguo Tao, Xuemei Fan, Xiaoyou Liu, Yannic Becker, Patricia Schroder, Qian Zhao",
+          "journal": "Autoimmunity",
+          "pubdate": "2026-02-19",
+          "pubdate_utc": "2026-02-19T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41714845/",
+          "abstract_snippet": "IgA nephropathy (IgAN) and celiac disease (CeD) are autoimmune disorders characterized by dysregulated immune responses; however, the molecular mechanisms underlying their comorbidity remain incompletely understood. Here, we integrated transcriptomic datasets …",
           "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41705361",
-          "title": "Artificial intelligence in orthopaedics: Enhanced examinations, ambient intelligence and the future of clinical practice.",
-          "authors": "Alexander Bouterse, James A Pruneski, Felix C Oettl, Balint Zsidai, Thomas Tischer, Umile Giuseppe Longo",
-          "journal": "Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",
-          "pubdate": "2026-02-18",
-          "pubdate_utc": "2026-02-18T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41705361/",
-          "abstract_snippet": "Artificial intelligence (AI) continues to rapidly transform the practice of medicine, with clinicians increasingly adopting data-driven decision-making aids and diagnostic support tools. Orthopaedic physicians are well poised to harness the capabilities of AI,…",
+          "pmid": "41714831",
+          "title": "Development and Validation of a Frailty Risk Prediction Model for Preoperative Non-Small-Cell Lung Cancer Patients: A Cross-Sectional Study.",
+          "authors": "Hang Yi, Miao Liu, Yihao Chen, Lu Liu, Man Liu, Zhen Wang",
+          "journal": "Annals of surgical oncology",
+          "pubdate": "2026-02-19",
+          "pubdate_utc": "2026-02-19T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41714831/",
+          "abstract_snippet": "Frailty is increasingly recognized as a predictor of poor surgical outcomes, yet its preoperative assessment in patients with non-small-cell lung cancer (NSCLC) remains challenging. This study aimed to develop and validate a high-performance predictive model f…",
           "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41645784",
-          "title": "Artificial Intelligence Platform EnzySFC for Enzyme Screening and Functional Conversion: Completely Redirecting Nitrilase to Nitrile Hydratase Function.",
-          "authors": "Shuiqin Jiang, Zhelin Zheng, Hua Dong, Siwei Zhang, Qi Tong, Dong Yi",
-          "journal": "Journal of agricultural and food chemistry",
-          "pubdate": "2026-02-06",
-          "pubdate_utc": "2026-02-06T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41645784/",
-          "abstract_snippet": "Catalytic promiscuity provides fundamental insights into enzyme evolution. To address the multiobjective challenges in discovering and evolving promiscuous activities, we developed EnzySFC, an AI-assisted platform that combines de novo enzyme discovery with fu…",
-          "score": 2.387,
+          "pmid": "41714716",
+          "title": "An open-source deep learning-based toolbox for automated auditory brainstem response analyses (ABRA).",
+          "authors": "Abhijeeth Erra, Cayla M Miller, Jeffrey Chen, Elena Chrysostomou, Shannon Barret, Yasmin M Kassim",
+          "journal": "Scientific reports",
+          "pubdate": "2026-02-19",
+          "pubdate_utc": "2026-02-19T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41714716/",
+          "abstract_snippet": "",
+          "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41487137",
-          "title": "DSSA-PPI: enhancing binding affinity change prediction upon protein mutations using disentangled structure-sequence aware attention.",
-          "authors": "Juhong Wu, Jiehui Sun, Tian Liang, Yongqi Zhang, Han Zhang, Tianyi Zhang",
-          "journal": "Chemical science",
-          "pubdate": "2025-12-23",
-          "pubdate_utc": "2025-12-23T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41487137/",
-          "abstract_snippet": "Accurate assessment of the effects of mutations on protein-protein interactions (PPIs) is crucial for understanding disease pathogenesis and the development of targeted therapies. Here, we present DSSA-PPI, a hybrid deep learning framework that enhances the pr…",
-          "score": 2.069,
+          "pmid": "41714657",
+          "title": "Interpretable machine learning for optimized dimethyl ether production from bio-methanol.",
+          "authors": "Mohsen Mokari, Mohammad Rahmani, Saeid Atashrouz",
+          "journal": "Scientific reports",
+          "pubdate": "2026-02-19",
+          "pubdate_utc": "2026-02-19T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41714657/",
+          "abstract_snippet": "",
+          "score": 2.486,
           "theme": "ML for evolution & pathogens"
         }
       ]
